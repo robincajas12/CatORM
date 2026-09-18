@@ -109,7 +109,3 @@ public interface MyAppDatabase {
 ```
 
 El sistema mapea automáticamente las columnas del resultado usando reflection.
-
-## Notes
-
-Las entidades DTO permiten consultas complejas sin crear tablas físicas. El mapeo funciona igual que con entidades normales, usando `@ColumnInfo` para mapear columnas a campos. Los nombres de columnas en el SQL deben coincidir exactamente con los valores en las anotaciones.
